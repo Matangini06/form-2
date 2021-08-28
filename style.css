@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400,700ital@1&display=swap" rel="stylesheet")
+
+
+html{
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+}
+
+
+
+.main{
+	color: white;
+	text-align: center;
+	background-image: url("https://images.unsplash.com/photo-1533371452382-d45a9da51ad9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ2fHxiZWFjaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+	background-size: cover;
+	background-position: center;
+}
+
+p{
+	font-size: 1.5em;
+}
+
+/*#body{
+	width: 600px;
+	padding: 30px;
+	margin: auto;
+	border-radius: 10px;
+	text-align: left;
+	background-color: #1b1b32;
+	font-size: 20px;
+	color: white;
+}*/
+
+#name{
+	width: 560px;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#Email{
+	width: 560px;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#Phone{
+	width: 560px;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+
+#comment{
+	border-radius: 5px;
+	padding: 50px;
+	border: none;
+	width: 500px;
+}
+
+#submit{
+	width: 600px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	margin-top: 20px;
+	background-color: #37af65;
+}
+
+
+@media(max-width: 760px){
+	.main{
+	    min-width: 530px;
+	}
+	
+	#body{
+		width: 400px;
+		border-radius: 50px;
+		padding: 50px;
+	}
+	#name{
+	width: 370px;
+	padding: 15px;
+	border-radius: 5px;
+    }
+
+    #Email{
+	width: 370px;
+	padding: 15px;
+	border-radius: 5px;
+    }
+
+    #Phone{
+	width: 370px;
+	padding: 15px;
+	border-radius: 5px;
+    }
+
+    #comment{
+	border-radius: 5px;
+	padding: 50px;
+	border: none;
+	width: 300px;
+    }
+
+    #submit{
+	width: 400px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	margin-top: 20px;
+	background-color: #37af65;
+    }
+}
